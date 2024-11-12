@@ -30,3 +30,26 @@ for (let b of "Harry") {
   console.log(b)
 }
 */
+
+//Program to print factorial of number..
+// factorial number such as:
+// 1! = 1
+// 2! = 2 X 1 = 2
+// 3! = 3 X 2 X 1 = 6
+// 4! = 4 X 3 X 2 X 1 = 24
+// 5! = 5 X 4 X 3 X 2 X 1 = 120
+// .
+// . 
+// and so on...
+  
+//code for finding factorial number
+/*const prompt = require("prompt-sync")({signint: true}) //Use this code in VS code for "prompt".
+let num = prompt("Enter a number:")
+num = Number.parseInt(num)
+let fact = 1;
+for(let i = 1;i <=num ;i++)
+{
+    fact = fact*i;
+}
+console.log("The factorial of " + num + " is " +fact) 
+*/
